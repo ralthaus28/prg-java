@@ -6,6 +6,67 @@
  * ----------------------------------------
  */
 
+
+ // Woran wird eine Klassenmethode erkannt?
+ //
+ // Klassenmethoden sind Methoden welche in der Klasse selbst oder über die
+ // Klasse aufgerufen werden.
+ //
+ //
+ // Wie wird eine Klassenmethode üblicherweise aufgerufen?
+ //
+ // Eine Klassenmethode wird entweder in der Klasse selbst oder über die
+ // Klasse aufgerufen und nicht über die Instanz einer Klasse.
+ //
+ //
+ // An Hand von was kann gesagt werden, ob die return-Anweisung
+ // nötig ist oder nicht?
+ //
+ // Eine return-Anweisung ist nötig sobald die funktion mit einem Datentyp
+ // und nicht void initialisiert wird.
+ //
+ //
+ // In einigen der obigen Methoden wird 0 zurückgeliefert, während einige Methoden die so genannte
+ // Null-Referenz null zurück liefern. Was könnte der Grund dafür sein?
+ //
+ // Bei einem int als Rückgabeparameter ist ein null nicht valid daher 0
+ //
+ //
+ // Sie haben von den sogenannten formalen und aktuellen Parametern gehört.
+ // - Was ist unter formalen Parametern zu verstehen?
+ // 
+ // Formale Parameter sind eine Art Platzhalter für den Aufruf einer Funktion
+ // 
+ //
+ // - Was sind die aktuellen Parameter (auch Argumente genannt)?
+ // 
+ // Aktuelle Parameter sind konkrete Werte oder Variablen die bei einem 
+ // Methodenaufruf übergeben werden
+ //
+ //
+ // - Rufen Sie eine Methode mehrmals auf, um den Unterschied zwischen 
+ // formalen und aktuellen Parametern etwas besser zu veranschaulichen.
+ //
+ // int addiere(int a, int b){
+ //     return a + b;
+ // }
+ // Hier sind a und b formale Parameter
+ //
+ // addiere(2, 5);
+ // Hier sind 2 und 5 die aktuellen Parameter (a = 2, b = 5)
+ //
+ //
+ // Könnten Sie abschliessend sagen, wie weit eine Methode implementiert
+ // werden muss, damit sie syntaktisch korrekt (heisst: kompilierbar) wird?
+ //
+ // Damit eine Methode syntaktisch korrekt ist muss sie enthalten:
+ // - Optional public oder private statement
+ // - Ein rückgabetyp (void, int, double usw.)
+ // - Ein Methodenname
+ // - Eine Parameterliste () <- darf auch leer sein
+ // - Einen Methodenkörper {}
+ // - Je nach rückgabetyp ein return statement;
+
 import java.util.Scanner;
 
 public class Aufgabe2 {
