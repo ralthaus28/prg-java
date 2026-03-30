@@ -39,3 +39,4 @@
  * Die zustände der beiden Schalter-Instanzen sind unterschiedlich, 
  * da es sich um zwei separate Objekte handelt, 
  * die unabhängig voneinander ihren Zustand ändern können
+ */
